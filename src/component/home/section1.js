@@ -25,37 +25,32 @@ const Section1 = () => {
             .fromTo(
                 thirdText.current,
                 { opacity: 0, y: 20 },
-                { opacity: 1, y: 10, duration: 0, ease: Power2.easeOut },
+                { opacity: 1, y: 10, duration: 1, ease: Power3.easeOut },
 
             )
             .fromTo(
                 forthText.current,
                 { opacity: 0, y: 20 },
-                { opacity: 1, y: 10, duration: 0, ease: Power2.easeOut }
-            );
-
-        gsap.fromTo(
+                { opacity: 1, y: 10, duration: 1, ease: Power3.easeOut }
+            ).fromTo(
             image.current,
-            { opacity: 0, scale: 0 },
-            { opacity: 1, scale: 1, duration: 1, ease: "back.inOut" }
+            { opacity: 0, scale: 0.5 },
+            { opacity: 1, scale: 1, duration: 5, ease: "back.inOut" }
         );
     }, []);
 
 
     return (
         <div className="container-fluid " style={{ boxSizing: 'border-box', margin: 0, padding: 0 }}>
-            <div className='row'>
+            <div className='row' >
                 <div
-                    className="left bg-dark col-lg-6 col-sm-12 col-md-12"
+                    className="left bg-dark col-lg-6 col-sm-12 col-md-12 "
                     style={{
 
                         display: 'flex',
                         alignItems: 'center',
                         flexDirection: 'column',
                         justifyContent: 'center',
-                        margin:0,
-                        padding:0,
-                        boxSizing:'border-box',
 
                     }}
                 >
@@ -65,14 +60,14 @@ const Section1 = () => {
                     <div className="h1 text-white" >
                         <span className="" ref={secondText}>Abdul</span>
                         <br />
-                        <span className="" ref={thirdText} style={{ opacity: 0 }}>Rehman</span>
+                        <span className="" ref={thirdText} >Rehman</span>
                     </div>
                     <span className="text-white" ref={forthText}>
                         front developer
                     </span>
                 </div>
 
-                <div className="right col-lg-6 col-sm-12 col-md-12 p-0">
+                <div className="right col-lg-6 col-sm-12 col-md-12 p-0 ">
                     <img ref={image} className="img-fluid" src={darkcomputer} alt="not img" />
                 </div>
             </div>
