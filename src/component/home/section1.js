@@ -42,7 +42,7 @@ const Section1 = () => {
         },
         {
             opacity:1,
-            duration:2,
+            duration:1,
             scale:1,
             ease:'back.inOut'
         }
