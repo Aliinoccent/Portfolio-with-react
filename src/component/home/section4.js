@@ -1,6 +1,6 @@
 import back from "./img/back.jpg";
 
-const Section3 = () => {
+const Section4= () => {
   return (
     <div
       className="container-fluid"
@@ -38,4 +38,4 @@ const Section3 = () => {
   );
 };
 
-export default Section3;
+export default Section4;
