@@ -12,7 +12,7 @@ const boxright=useRef(null)
     < div style={{display:'flex',justifyContent:'space-around',alignItems:'center' }}>
     <Gsap props={{ Sopacity:0,Sx:-100, ex:300,index:2 }} box={boxleft} />
     <Section3Left  boxref={boxleft }  />
-    <Gsap props={{ Sopacity:0,Sx:1000,ex:0,index:1}} box={boxright} />
+    <Gsap props={{ Sopacity:0,Sx:1000,ex:-100,index:1}} box={boxright} />
     <Section3Right boxref={boxright}/>
     </div>
     )
