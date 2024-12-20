@@ -65,9 +65,9 @@ const Section1 = () => {
                     </span>
                 </div>
 
-                <div className="right col-lg-6 col-sm-12 col-md-6 p-0 m-0 ">
-                    <img ref={image} className="img-fluid" src={darkcomputer} alt="not img"  />
-                </div>
+                
+                    <img ref={image} className="img-fluid right col-lg-6 col-sm-12 col-md-6 p-0 m-0" src={darkcomputer} alt="not img"  />
+                
             </div>
         </div>
     );

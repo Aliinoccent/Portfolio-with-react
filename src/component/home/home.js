@@ -31,10 +31,10 @@ const Home =()=>{
 
 ]
     return(
-        <div>
-        <Navbar/>
-        <Section1/>
-        <Section2 />
+        <div className="row">
+        <Navbar className=' col-sm-12'/>
+        <Section1 className=' col-sm-12'/>
+        <Section2 className=' col-sm-12' />
        
         {/* <Section3 className="col-lg-4 col-sm-12 "/> */}
         <Card props={cardObject} />
