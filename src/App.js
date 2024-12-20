@@ -6,8 +6,10 @@ import Home from './component/home/home'
 
 function App() {
   return (
-    <div className="App " style={{padding:0,margin:0,boxSizing:'border-box'}}>
-      <Home />
+    <div className="container-fluid">
+      <div className="App  ">
+        <Home />
+      </div>
     </div>
   );
 }

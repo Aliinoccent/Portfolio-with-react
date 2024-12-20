@@ -33,10 +33,10 @@ const Section1 = () => {
                 { opacity: 0, y: 20 },
                 { opacity: 1, y: 10, duration: 1, ease: Power3.easeOut }
             ).fromTo(
-            image.current,
-            { opacity: 0, scale: 0 },
-            { opacity: 1, scale: 1, duration: 2, ease: "back.inOut" }
-        );
+                image.current,
+                { opacity: 0, scale: 0 },
+                { opacity: 1, scale: 1, duration: 2, ease: "back.inOut" }
+            );
     }, []);
 
 
@@ -65,9 +65,9 @@ const Section1 = () => {
                     </span>
                 </div>
 
-                
-                    <img ref={image} className="img-fluid right col-lg-6 col-sm-12 col-md-6 p-0 m-0" src={darkcomputer} alt="not img"  />
-                
+
+                <img ref={image} className="img-fluid right col-lg-6 col-sm-12 col-md-6 p-0 m-0" src={darkcomputer} alt="not img" />
+
             </div>
         </div>
     );
