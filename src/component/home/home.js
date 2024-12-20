@@ -42,10 +42,19 @@ const Home = () => {
         <div className="col-12">
           <Section2 />
         </div> 
+        <div className="col-12">
+             <Section3/>
+        </div>
+        <div className="col-12">
+         <Card props={cardObject} />
+        </div>
+        <div className="col-12">
+         <Section4 />
+        </div>
       </div>
       
-            // {/* <Section3 className="col-lg-4 col-sm-12 "/> */}
-            // {/* <Card props={cardObject} /> */}
+           
+            
        
     )
 }
