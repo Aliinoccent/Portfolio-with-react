@@ -1,6 +1,6 @@
 const Navbar = () => {
   return (
-    <nav className="bg-dark d-flex align-items-center justify-content-around p-3" style={{ width: '100%' }}>
+    <nav className="bg-dark d-flex align-items-center justify-content-around p-3">
       <a className="navbar-brand text-white"style={{flex:1}} href="#">
         Hi Coding!
       </a>

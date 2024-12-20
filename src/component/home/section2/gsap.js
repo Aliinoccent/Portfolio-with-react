@@ -9,10 +9,7 @@ const Gsap=({props,box})=>{
                 opacity:props.Sopacity,
                 x:props.Sx
             },
-            {opacity:1,x:props.ex,duration:2,  ease: Power3.easeOut,
-                onComplete:()=>{
-                    box.current.style.zIndex=props.index
-                }
+            {opacity:1,x:props.ex,duration:2,  ease: Power3.easeOut
             }
         )
     },[])

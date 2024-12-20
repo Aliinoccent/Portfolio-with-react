@@ -1,9 +1,9 @@
-const Section2= ()=>{
+const Section3= ()=>{
     return(
-        <div className="  text-center "style={{height:'30vh'}}>
+        <div className="  text-center "style={{height:'100%'}}>
             <div className="h1 bg-warning">Our Services</div>
             <div></div>
         </div>
     )
 }
-export default Section2;
+export default Section3;

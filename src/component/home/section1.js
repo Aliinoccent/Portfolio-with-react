@@ -34,18 +34,17 @@ const Section1 = () => {
                 { opacity: 1, y: 10, duration: 1, ease: Power3.easeOut }
             ).fromTo(
             image.current,
-            { opacity: 0, scale: 0.5 },
-            { opacity: 1, scale: 1, duration: 5, ease: "back.inOut" }
+            { opacity: 0, scale: 0 },
+            { opacity: 1, scale: 1, duration: 2, ease: "back.inOut" }
         );
     }, []);
 
 
     return (
-        <div className="container-fluid " style={{ boxSizing: 'border-box', margin: 0, padding: 0, }}>
-            <div className='row' style={{height:'100vh'}} >
-                <div className="left bg-dark col-lg-6 col-sm-12 col-md-12 "
+        <div className="container-fluid  bg-primary " style={{ boxSizing: 'border-box', margin: 0, padding: 0, }}>
+            <div className='row'  >
+                <div className="left bg-dark col-lg-6 col-sm-12 col-md-6 "
                     style={{
-                        height:'100%',
                         display: 'flex',
                         alignItems: 'center',
                         flexDirection: 'column',
@@ -66,8 +65,8 @@ const Section1 = () => {
                     </span>
                 </div>
 
-                <div className="right col-lg-6 col-sm-12 col-md-12 p-0  h-100">
-                    <img ref={image} className="img-fluid h-100" src={darkcomputer} alt="not img" />
+                <div className="right col-lg-6 col-sm-12 col-md-6 p-0 m-0 ">
+                    <img ref={image} className="img-fluid" src={darkcomputer} alt="not img"  />
                 </div>
             </div>
         </div>
