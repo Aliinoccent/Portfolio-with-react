@@ -32,7 +32,7 @@ const Home = () => {
     ]
     return (
         
-        <div className="">
+        <div className="container-fluid">
         <div className="col-12">
           <Navbar />
         </div>
@@ -41,7 +41,7 @@ const Home = () => {
         </div>
         <div className="col-12">
           <Section2 />
-        </div>
+        </div> 
       </div>
       
             // {/* <Section3 className="col-lg-4 col-sm-12 "/> */}
