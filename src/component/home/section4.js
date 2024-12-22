@@ -11,7 +11,7 @@ const Section4= () => {
         style={{
           backgroundSize: "cover",
           height: "100vh",
-          position: "absolute",
+          position: "relative",
           right: 0,
         }}
         src={back}

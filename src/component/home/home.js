@@ -7,6 +7,7 @@ import Card from "./cards/card"
 import Image from './img/back.jpg'
 import Image2 from './img/computer bg.webp'
 import Image3 from './img/darkcomputer.jpg'
+import Section5 from "./section5"
 
 const Home = () => {
     const cardObject = [{
@@ -48,8 +49,13 @@ const Home = () => {
         <div className="col-12">
          <Card props={cardObject} />
         </div>
+        
         <div className="col-12">
          <Section4 />
+        </div>
+
+        <div className="col-12">
+         <Section5 />
         </div>
       </div>
       
