@@ -9,7 +9,7 @@ const Section6 = () => {
             </div>
             <div className="right col-lg-6 col-sm-12 d-flex justify-content-center flex-column gap-4 text-white">
                 
-                <div className='d-flex gap-4 align-items-center align-items-sm-start'>
+                <div className='d-flex gap-4  align-items-sm-center'>
                     <i class="fa-solid fa-location-dot text-white"></i>
                     <div className=' text-center  text-lg-start '>LAHORE CANTT ARIFABAD LAHORE</div>
                 </div>
@@ -19,7 +19,7 @@ const Section6 = () => {
                     <div className=''>03094028763</div>
                 </div>
                
-                <div className='d-flex align-items-center gap-4'>
+                <div className='d-flex align-items-sm-center gap-4'>
                     <i class="fa-regular fa-envelope " style={{ color: 'white' }}></i>
                     <div className=''>abdulrehman.cs.123.@gmail.com</div>
                 </div>
