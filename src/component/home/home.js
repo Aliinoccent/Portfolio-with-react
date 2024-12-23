@@ -10,9 +10,12 @@ import Image3 from './img/darkcomputer.jpg'
 import Section5 from "./section5"
 import Section6 from "./section6"
 import Section7 from "./section7"
+import { cardObject } from "../reducer/reducerSlice"
+import { useDispatch } from "react-redux"
 
 const Home = () => {
-    const cardObject = [{
+  const dispatch=useDispatch()
+    const cardObjects = [{
         image: Image,
         cardTitle: 'Basic Plan',
         discount: 'Starting at $150/mo',
@@ -33,9 +36,10 @@ const Home = () => {
     }
 
     ]
+    dispatch(cardObject(cardObjects));
     return (
         
-        <div className="container-fluid">
+        <div className=" m-0 p-0">
         <div className="col-12">
           <Navbar />
         </div>
@@ -43,13 +47,13 @@ const Home = () => {
           <Section1 />
         </div>
         <div className="col-12">
-          <Section2 />
+          <Section2 />c
         </div> 
         <div className="col-12">
              <Section3/>
         </div>
         <div className="col-12">
-         <Card props={cardObject} />
+         <Card props={cardObjects}/>
         </div>
 
         <div className="col-12">

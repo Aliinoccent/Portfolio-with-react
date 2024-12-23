@@ -9,21 +9,22 @@ const Section2 = () => {
 
   return (
     <div
-      className=" col-sm-12  col-12" 
-      style={{ position: 'relative', marginTop: 30 }}
+      className=" col-sm-12  " 
+      style={{ position: 'relative', marginTop: 30, marginBottom:30   }}
     >
        {/* Section 2 Right */}
        <div>
         <Gsap props={{ Sopacity: 0, Sx: 500, ex: 0 }} box={boxright} />
         <Section2Right className="" boxref={boxright} />
       </div>
+
       {/* Section 2 Left */}
       <div 
-        className="position-absolute d-lg-block " 
+        className="position-absolute d-lg-block  " 
         style={{
           zIndex: 2,
           top: '20%',
-          // left: '20%'
+        
         }}
       >
         <Gsap props={{ Sopacity: 0, Sx: -100, ex: 0 }} box={boxleft} />
