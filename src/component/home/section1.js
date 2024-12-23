@@ -41,7 +41,7 @@ const Section1 = () => {
 
 
     return (
-        <div className="container-fluid  bg-primary " style={{ boxSizing: 'border-box', margin: 0, padding: 0, }}>
+        <div className="container-fluid" >
             <div className='row'  >
                 <div className="left bg-dark col-lg-6 col-sm-12 col-md-6 "
                     style={{
@@ -49,6 +49,7 @@ const Section1 = () => {
                         alignItems: 'center',
                         flexDirection: 'column',
                         justifyContent: 'center',
+                        minHeight:'40vh'
 
                     }}
                 >
